@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(36, 33, 33);
+}
+
+li{
+white-space: nowrap;
+list-style: none;
+border: 2px solid rgb(255, 255, 255);
+padding: 15px;
+border-radius: 10px;
+margin-left: 20px;
+margin-right: 19px;
+transition: transform 0.3s ease;
+cursor: pointer;
+
+}
+
+.home{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 500px;
+    
+}
+.category{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+li:hover {
+    background-color: green;
+    border:none;
+    color: blueviolet;
+}
+.nav_ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center; /* Vertically centers items */
+    justify-content: center;
+}
+nav{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 98%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center; 
+
+}
+.web_name{
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 40px;
+}
+.box1{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 5%;
+}
